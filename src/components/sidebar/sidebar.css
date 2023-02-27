@@ -1,0 +1,15 @@
+.nav {
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 56px);
+}
+.nav a {
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 0 2px 0.5px #e3e3e3;
+    width: 95%;
+    margin-bottom: 1em;
+}
+.nav a.active {
+    background-color: #eeeeeead;
+    color: #0a58ca;
+}
